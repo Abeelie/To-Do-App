@@ -1,0 +1,67 @@
+.section {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#add-task {
+  background-color: #000000;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.submit-task {
+  position: relative;
+  background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 1.5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.submit-task:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+ul li{
+  padding-bottom: 10px;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  background-color: #555555; 
+  border: none;
+  color: white;
+  padding: 4px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #f44336;
+  color: white;
+}
+
