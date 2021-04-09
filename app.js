@@ -18,7 +18,7 @@ function drawTasks(){
   if (Object.values(tasks).length === 0) {
     taskList.innerHTML = `<center><strong>Ops, you dont have task.</strong></center>`
   }else{
-    
+
   taskList.innerHTML = ``
 
   Object.values(tasks).forEach(task => {
@@ -58,7 +58,7 @@ taskList.addEventListener('click', function(e) {
   
    }else if(e.target.tagName === 'LI'){
     tasks[e.target.id].isCompleted  = true;
-    taskToSave = JSON.stringify(tasks)
+    let taskToSave = JSON.stringify(tasks)
     saveInLocalStorage('tasks', taskToSave)
     drawTasks()
   
